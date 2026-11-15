@@ -1,0 +1,36 @@
+name: securevault_app
+description: "A secure cross-platform password manager with Neomorphism + Glassmorphism UI and Local Wi-Fi sync."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Cryptography & Security
+  cryptography: ^2.7.0
+  crypto: ^3.0.3
+  local_auth: ^2.1.8
+  flutter_secure_storage: ^9.0.0
+  # State & Storage
+  provider: ^6.1.2
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  # Local Network Sync & QR
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.1.1
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+  http: ^1.2.1
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
